@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "random.h"
 
 char randchar(){
     int char_num = (rand()%(90-65))+65;
